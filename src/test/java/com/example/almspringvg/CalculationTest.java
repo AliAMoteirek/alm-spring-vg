@@ -45,6 +45,15 @@ class CalculationTest {
     }
 
     @Test
+    void divideTwoNumbers() {
+        // When
+        int result = calculation.divideTwoNumbers(num1, num2);
+
+        // Then
+        assertEquals(2, result);
+    }
+
+    @Test
     void multiplyByItselfTest() {
         // When
         int result = calculation.multiplyByItself(num1);
